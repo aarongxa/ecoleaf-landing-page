@@ -25,7 +25,6 @@
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.5rem;
   }
-
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -53,11 +52,17 @@
   * {
     @apply border-border;
   }
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply bg-background text-foreground;
     background-color: #f8faf9;
     color: #2d3748;
     font-family: 'Inter', sans-serif;
+  }
+  #products, #features, #about, #footer {
+    @apply scroll-mt-[85px] transition-all duration-1000 ease-in-out;
   }
 }
 
@@ -65,23 +70,18 @@
   .feature-card {
     @apply transition-transform duration-300 ease-in-out;
   }
-  
   .feature-card:hover {
     @apply -translate-y-2;
   }
-  
   .pastel-green {
     background-color: #d4e8d9;
   }
-  
   .pastel-green-dark {
     background-color: #a8d5ba;
   }
-  
   .text-pastel-green {
     color: #4a7c59;
   }
-  
   .border-pastel-green {
     border-color: #a8d5ba;
   }
