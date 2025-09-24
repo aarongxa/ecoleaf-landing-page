@@ -1,0 +1,134 @@
+# EcoLeaf Landing Page Content Configuration
+# Edit this file to update all text content on the website
+
+site:
+  title: "EcoLeaf - Natural Products"
+  description: "Discover our eco-friendly products crafted with care for you and the planet. Natural beauty products with pure essence."
+
+brand:
+  name: "EcoLeaf"
+  tagline: "Natural products for a sustainable future."
+  logo: "./logo.png"
+
+navigation:
+  items:
+    - label: "Home"
+      href: "home"
+    - label: "Products"
+      href: "products"
+    - label: "Features" 
+      href: "features"
+    - label: "About"
+      href: "about"
+  cta_button: "Shop Now"
+
+hero:
+  title: 
+    line1: "Natural Beauty,"
+    line2: "Pure Essence"
+  subtitle: "Discover our eco-friendly products crafted with care for you and the planet"
+  buttons:
+    primary: "Explore Products"
+    secondary: "Learn More"
+
+products:
+  section_title: "Our Natural Product Range"
+  subtitle: "Carefully crafted products for your wellness journey"
+  items:
+    - name: "Organic Face Serum"
+      description: "Hydrating serum with botanical extracts for radiant skin"
+      price: "$32"
+      image: "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop&crop=center"
+      bestseller: true
+    - name: "Natural Body Butter"
+      description: "Rich, nourishing cream made with organic shea butter"
+      price: "$24"
+      image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop&crop=center"
+      bestseller: false
+    - name: "Herbal Hair Oil"
+      description: "Strengthening oil blend for healthy, lustrous hair"
+      price: "$28"
+      image: "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?w=400&h=400&fit=crop&crop=center"
+      bestseller: false
+    - name: "Gentle Cleansing Foam"
+      description: "Mild cleanser perfect for all skin types"
+      price: "$18"
+      image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop&crop=center"
+      bestseller: true
+  cta_button: "View All Products"
+
+features:
+  section_title: "Why Choose EcoLeaf?"
+  items:
+    - title: "100% Natural"
+      description: "All our products are made from natural, organic ingredients sourced sustainably."
+      icon: "leaf"
+    - title: "Eco-Friendly"
+      description: "Our packaging is 100% recyclable and biodegradable, reducing environmental impact."
+      icon: "recycle"
+    - title: "Cruelty Free"
+      description: "We never test on animals and are committed to ethical practices throughout our supply chain."
+      icon: "heart"
+
+about:
+  title: "Our Story"
+  paragraphs:
+    - "Founded in 2018, EcoLeaf was born from a passion for natural wellness and environmental sustainability. We believe that beauty products should be good for both you and the planet."
+    - "Every product is carefully crafted using traditional methods combined with modern science, ensuring the highest quality while maintaining our commitment to sustainability."
+  cta_button: "Read Our Story"
+  images:
+    - src: "https://images.unsplash.com/photo-1540553016722-983e48a2cd10?w=600&h=400&fit=crop&crop=center"
+      alt: "Fresh green leaves with morning dew drops in natural sunlight"
+    - src: "https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?w=600&h=400&fit=crop&crop=center"
+      alt: "Clean skincare products with natural botanicals and soft lighting"
+    - src: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=600&h=400&fit=crop&crop=center"
+      alt: "Minimalist beauty products with pure white background and natural elements"
+    - src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center"
+      alt: "Elegant natural beauty products arranged with fresh botanicals"
+
+footer:
+  sections:
+    - title: "Products"
+      links:
+        - name: "Skincare"
+          href: "#skincare"
+        - name: "Hair Care"
+          href: "#haircare"
+        - name: "Body Care"
+          href: "#bodycare"
+    - title: "Company"
+      links:
+        - name: "About Us"
+          href: "#about"
+        - name: "Sustainability"
+          href: "#sustainability"
+        - name: "Contact"
+          href: "#contact"
+  social:
+    - platform: "Facebook"
+      href: "https://facebook.com/ecoleaf_template"
+      icon: "facebook"
+    - platform: "Instagram"
+      href: "https://instagram.com/ecoleaf_template"
+      icon: "instagram"
+    - platform: "X"
+      href: "https://x.com/ecoleaf_template"
+      icon: "x"
+    - platform: "TikTok"
+      href: "https://tiktok.com/@ecoleaf_template"
+      icon: "tiktok"
+  copyright: "© 2025 EcoLeaf. All rights reserved."
+
+# Error messages and loading states
+ui:
+  loading: "Loading..."
+  error:
+    title: "Oops! Something went wrong"
+    message: "We're sorry for the inconvenience. Please refresh the page to try again."
+    button: "Refresh Page"
+
+# SEO and meta information
+meta:
+  keywords: "natural products, eco-friendly, organic, skincare, sustainability, cruelty-free"
+  author: "EcoLeaf"
+  robots: "index, follow"
